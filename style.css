@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .memory-game {
+    width: 640px;
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    grid-gap: 10px;
+  }
+  
+  .memory-card {
+    width: 150px;
+    height: 150px;
+    background-color: #ffffff20;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #ffffff;
+    cursor: pointer;
+    perspective: 1000px;
+    position: relative;
+    transition: transform 0.4s;
+  }
+  
+  .memory-card.flip {
+    background-color: #2ecc71;
+  }
+  
+  .memory-card.matched {
+    background-color: #3498db;
+    cursor: default;
+  }
