@@ -10,9 +10,6 @@ A simple and responsive memory matching game built using HTML, CSS, and JavaScri
 - Responsive layout with grid-based card placement
 - Tracks matched pairs and locks interactions temporarily to prevent glitches
 
-## 📸 Preview
-
-![Memory Game Screenshot](screenshot.png) <!-- Optional: add a real screenshot image if available -->
 
 ## 🚀 Getting Started
 
@@ -20,3 +17,5 @@ A simple and responsive memory matching game built using HTML, CSS, and JavaScri
 
 ```bash
 git clone https://github.com/yourusername/memory-card-game.git
+cd memory-card-game
+
