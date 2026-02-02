@@ -16,6 +16,6 @@ A simple and responsive memory matching game built using HTML, CSS, and JavaScri
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/yourusername/memory-card-game.git
+git clone https://github.com/Aadarsh 125/memory-card-game.git
 cd memory-card-game
 
